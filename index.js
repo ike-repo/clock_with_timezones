@@ -31,8 +31,8 @@ function getTime(timeZone) {
     hour = hour < 10 ? "0" + hour : hour;
     min = min < 10 ? "0" + min : min
     sec = sec < 10 ? "0" + sec : sec
-    document.querySelector("#hour").innerHTML = hour + " " + ":";
-    document.querySelector("#min").innerHTML = min + " " + ":";
+    document.querySelector("#hour").innerHTML = hour;
+    document.querySelector("#min").innerHTML = min;
     document.querySelector("#ap").innerHTML = ap;
 }
 getTime(timeZone);
