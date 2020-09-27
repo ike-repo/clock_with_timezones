@@ -60,7 +60,7 @@
                     height: 4vh;
                     width: 10vh;
                     margin: 3vh;
-                    font-size: small;
+                    font-size: 1vh;
                 }
                 .selection {
                     display: flex;
@@ -69,15 +69,16 @@
                 .time {
                     display: flex;
                     flex-wrap: wrap;
+                    /* flex-direction: column; */
                     font-family: 'Exo', sans-serif;
-                    font-size: 5vh;
+                    font-size: 1.5vh;
                     color: rgba(58, 150, 65, 0.897);
                     text-shadow: 1px 1px 3px #96bb8b;
                     text-align: center;
                 }
                 h2 {
                     margin-right: 0;
-                    min-width: 80px;
+                    min-width: 40px;
                     text-align: center;
                 }
             }
