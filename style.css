@@ -76,8 +76,8 @@
                 }
                 .time {
                     display: flex;
-                    /* flex-wrap: wrap; */
                     flex-direction: column;
+                    justify-content: space-evenly;
                     font-family: 'Exo', sans-serif;
                     font-size: 1vh;
                     color: rgba(58, 150, 65, 0.897);
