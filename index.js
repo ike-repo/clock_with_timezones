@@ -17,7 +17,12 @@ function getTime(timeZone) {
             hour = rawHour;
         }
     } else {
-        hour = date.getHours();
+        rawHour = date.getUTCHours() - 4;
+        if (rawHour < 0) {
+            hour = rawHour + 24;
+        } else {
+            hour = rawHour;
+        }
     }
     let min = date.getMinutes();
 

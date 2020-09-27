@@ -14,19 +14,20 @@
                 display: flex;
                 flex-wrap: wrap;
                 font-family: 'Exo', sans-serif;
-                font-size: 10vh;
+                font-size: 8vh;
                 color: rgba(58, 150, 65, 0.897);
                 text-shadow: 1px 1px 3px #96bb8b;
                 text-align: center;
             }
             
             h2 {
-                min-width: 90px;
+                min-width: 100px;
                 text-align: center;
             }
             
-            #sec {
-                min-width: 155px;
+            #sec,
+            #ap {
+                min-width: 125px;
             }
             
             .btn {
