@@ -54,7 +54,7 @@
                     overflow: auto;
                 }
                 .container {
-                    margin-top: 25px;
+                    margin-top: 15px;
                     height: 10vh;
                     display: flex;
                     flex-direction: column;
@@ -64,8 +64,8 @@
                 .btn {
                     height: 4vh;
                     width: 10vh;
-                    margin: 3vh;
-                    font-size: 1vh;
+                    margin: 2vh;
+                    font-size: 0.5vh;
                 }
                 .selection {
                     display: flex;
@@ -80,7 +80,7 @@
                     justify-content: space-evenly;
                     align-items: stretch;
                     font-family: 'Exo', sans-serif;
-                    font-size: 5vh;
+                    font-size: 4.5vh;
                     color: rgba(58, 150, 65, 0.897);
                     text-shadow: 1px 1px 3px #96bb8b;
                     text-align: center;
