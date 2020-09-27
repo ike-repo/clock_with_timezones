@@ -26,7 +26,7 @@
             }
             
             #sec {
-                min-width: 180px;
+                min-width: 155px;
             }
             
             .btn {
@@ -39,7 +39,7 @@
                 box-shadow: 3px 3px 7px #96bb8b;
                 color: aliceblue;
                 font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: large;
+                font-size: medium;
             }
             
             .btn:focus {

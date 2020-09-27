@@ -3,14 +3,14 @@ let timeZone = 'tsi';
 function getTime(timeZone) {
     let date = new Date();
     if (timeZone == "tsi") {
-        rawHour = date.getHours() + 7;
+        rawHour = date.getUTCHours() + 3;
         if (rawHour >= 24) {
             hour = rawHour - 24;
         } else {
             hour = rawHour;
         }
     } else if (timeZone == "cet") {
-        rawHour = date.getHours() + 6;
+        rawHour = date.getUTCHours() + 2;
         if (rawHour >= 24) {
             hour = rawHour - 24;
         } else {
