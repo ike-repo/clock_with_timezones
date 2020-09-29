@@ -46,7 +46,7 @@
             .btn:focus {
                 border: 1px solid rgb(146, 216, 144);
                 outline: none;
-                background-color: rgba(21, 104, 28, 0.897);
+                background: rgba(6, 82, 7, 0.897);
             }
             
             @media only screen and (max-width: 480px) {

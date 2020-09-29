@@ -1,4 +1,4 @@
-let timeZone = 'tsi';
+let timeZone = 'est';
 
 function getTime(timeZone) {
     let date = new Date();
@@ -13,17 +13,17 @@ function getTime(timeZone) {
         hour = rawHour - 24;
     } else if (rawHour > 12) {
         hour = rawHour - 12;
+    } else if (rawHour < 0) {
+        hour = rawHour + 12;
     } else {
         hour = rawHour;
     }
-    if (rawHour < 0) {
-        hour = rawHour + 24;
-    }
+
 
     let min = date.getMinutes();
 
     let ap = "AM";
-    if (rawHour < 12) {
+    if (rawHour < 12 && rawHour > 0) {
         ap = "AM";
     } else {
         ap = "PM";
@@ -36,7 +36,7 @@ function getTime(timeZone) {
     document.querySelector("#min").innerHTML = min;
     document.querySelector("#ap").innerHTML = ap;
 }
-getTime(timeZone);
+getTime(est);
 setInterval(getSec, 1000);
 
 function getSec() {
